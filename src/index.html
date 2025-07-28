@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts (Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Alata:400,700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-row header-row-top">
+      <div class="logo-block logo-block-top">
+        <img class="logo-icon" src="../public/logo.png" alt="Logo" />
+        <div class="logo-text">
+          <span class="logo-title">Tsegaw Admasu</span>
+          <span class="logo-subtitle">architect &amp; designer</span>
+        </div>
+      </div>
+      <div class="header-contact">
+        <div class="contact-block">
+          <span class="contact-label">Write Me</span>
+          <a href="mailto:tsegaw.admasu@leadradiant.com" class="contact-info">tsegaw.admasu@leadradiant.com</a>
+        </div>
+        <div class="contact-block">
+          <span class="contact-label">Call Me</span>
+          <a href="tel:+251926181693" class="contact-info">+251 92 618 1693</a>
+        </div>
+      </div>
+    </div>
+    <hr class="header-divider" />
+    <div class="header-row header-row-bottom">
+      <div class="logo-block logo-block-bottom">
+        <img class="logo-icon" src="../public/logo.png" alt="Logo" />
+        <div class="logo-text">
+          <span class="logo-title">Tsegaw Admasu</span>
+          <span class="logo-subtitle">architect &amp; designer</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#hero">About Me</a></li>
+          <li><a href="#portfolio">Featured Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/tsegaw_admasu_keneni/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://web.facebook.com/tsegawadmasukeneni" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/tsegawadmasu" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/tsegaw-admasu-keneni/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close navigation menu">&times;</button>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#hero" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#portfolio" class="mobile-nav-link">Featured Projects</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact Me</a></li>
+      </ul>
+      <div class="mobile-nav-contact">
+        <div class="mobile-contact-item">
+          <span class="mobile-contact-label">Email:</span>
+          <a href="mailto:tsegaw.admasu@leadradiant.com">tsegaw.admasu@leadradiant.com</a>
+        </div>
+        <div class="mobile-contact-item">
+          <span class="mobile-contact-label">Phone:</span>
+          <a href="tel:+251926181693">+251 92 618 1693</a>
+        </div>
+      </div>
+      <div class="mobile-nav-social">
+        <a href="https://www.instagram.com/tsegaw_admasu_keneni/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://web.facebook.com/tsegawadmasukeneni" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/tsegawadmasu" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/tsegaw-admasu-keneni/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hello, I’m Tsegaw Admasu!</h1>
+        <p class="hero-subtitle">Licensed architect & academician —</p>
+        <a href="#contact" class="hero-btn">Contact Me</a>
+      </div>
+      <div class="hero-image-block">
+        <img src="../public/img.png" alt="Adam portrait" class="hero-image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about-me">
+    <div class="aboutme-grid">
+      <div class="aboutme-image-block">
+        <div class="aboutme-image-bg"></div>
+        <img class="aboutme-image" src="../public/peakpx.jpg" alt="Modern house" />
+      </div>
+      <div class="aboutme-content">
+        <h2 class="aboutme-title">Tsegaw Admasu Keneni</h2>
+        <h3 class="aboutme-subtitle">Architect / Lecturer / Urban Planner</h3>
+        <p class="aboutme-desc">Lecturer and architect with two and half years of career experience with lecturing and teaching in educational sectors, universities and colleges. Possess four years of expertise in designing residential, commercial and other buildings with innovative and pleasing concepts which are up to date.</p>
+        <div class="aboutme-skills-list"></div>
+        <a href="../public/cv%20for%20linkidin.pdf" class="download-cv-btn" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Carousel Section -->
+  <section id="services-carousel" class="services-carousel-section">
+    <div class="services-carousel-container">
+      <button class="services-carousel-arrow left" id="services-carousel-prev"><i class="fas fa-chevron-left"></i></button>
+      <div class="services-carousel-track" id="services-carousel-track">
+        <div id="services-carousel-cards">
+          <!-- Carousel cards will be rendered here by JS -->
+        </div>
+      </div>
+      <button class="services-carousel-arrow right" id="services-carousel-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Milestone Section -->
+  <section id="milestone">
+    <div class="milestone-grid">
+      <div class="milestone-item">
+        <div class="milestone-label">01 \ Education</div>
+        <div class="milestone-year">2018</div>
+        <div class="milestone-title">BSc Degree in Architecture <span class="milestone-dash">&mdash;</span></div>
+        <div class="milestone-desc">Adama Science and Technology University, Adama<br><span style='font-size:0.95em;color:#888;'>September, 2013 G.C — July, 2018 G.C, graduate with distinction</span></div>
+      </div>
+      <div class="milestone-item">
+        <div class="milestone-label">02 \ Architect</div>
+        <div class="milestone-year">2018</div>
+        <div class="milestone-title">Oasis Architects, Shashemene <span class="milestone-dash">&mdash;</span></div>
+        <div class="milestone-desc">Designed and supervised various residential, commercial, and mixed-use buildings. Also handled landscape, interior design, and project planning.</div>
+      </div>
+      <div class="milestone-item">
+        <div class="milestone-label">03 \ Assistant Lecturer</div>
+        <div class="milestone-year">2019</div>
+        <div class="milestone-title">Dilla University, Dilla <span class="milestone-dash">&mdash;</span></div>
+        <div class="milestone-desc">Lectured on architecture and civil engineering subjects, advised students, and organized academic events and exhibitions. Supported extracurricular activities for the department.</div>
+      </div>
+      <div class="milestone-item">
+        <div class="milestone-label">04 \ Education</div>
+        <div class="milestone-year">2023</div>
+        <div class="milestone-title">MSc Degree in Urban Planning and Design <span class="milestone-dash">&mdash;</span></div>
+        <div class="milestone-desc">Adama Science and Technology University, Adama<br><span style='font-size:0.95em;color:#888;'>September, 2021 G.C — July, 2023 G.C, graduate with distinction</span></div>
+      </div>
+      <div class="milestone-item">
+        <div class="milestone-label">05 \ Architect & Management</div>
+        <div class="milestone-year">2023 - 2025</div>
+        <div class="milestone-title">Dadiyo Architecture and Design <span class="milestone-dash">&mdash;</span></div>
+        <div class="milestone-desc">Lead architect and project manager for diverse projects. Also managed Dadiyo Training School, a multi-course center.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video-feature" class="video-section">
+    <div class="video-section-content">
+      <div class="video-col">
+        <div class="video-thumbnail">
+          <div class="video-overlay"></div>
+          <button class="play-btn" id="open-video-modal" aria-label="Play Video"></button>
+        </div>
+      </div>
+      <div class="video-info-col">
+        <h2 class="video-section-title">Watch My Introduction</h2>
+        <p class="video-section-subtitle">Learn more about my work and services</p>
+        <ul class="video-features">
+          <li>Professional Experience</li>
+          <li>Creative Solutions</li>
+          <li>Client Satisfaction</li>
+          <li>Cutting-edge Technology</li>
+        </ul>
+        <a href="#contact" class="video-cta-btn">Contact Me</a>
+      </div>
+    </div>
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal">
+      <div class="video-modal-content">
+        <span class="close-modal" id="close-video-modal">&times;</span>
+        <div class="video-iframe-wrapper">
+          <iframe id="youtube-player" width="100%" height="400" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Video Section -->
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 class="services-title">My Services</h2>
+    <div class="services-grid">
+      <div class="service-card" style="background-image:url('https://media.istockphoto.com/id/479196874/photo/construction-planning-drawings.jpg?s=612x612&w=0&k=20&c=xIuO1LMJcm4lRXtUhzkYu_uUbwLMC5WT1YVFdjMwYEI=');">
+        <div class="service-overlay">
+          Architectural Design
+          <a class="learn-more-btn" href="https://www.istockphoto.com/photos/new-construction-plans" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=pexels-fotoaibe-1571460.jpg&fm=jpg');">
+        <div class="service-overlay">
+          Interior Design
+          <a class="learn-more-btn" href="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?cs=srgb&dl=pexels-fotoaibe-1571460.jpg&fm=jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://images.stockcake.com/public/7/a/a/7aa3ba4b-acee-4068-ae69-82c493be6ed9_large/bustling-mall-interior-stockcake.jpg');">
+        <div class="service-overlay">
+          Commercial Design
+          <a class="learn-more-btn" href="https://images.stockcake.com/public/7/a/a/7aa3ba4b-acee-4068-ae69-82c493be6ed9_large/bustling-mall-interior-stockcake.jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://semangroup.com.ng/wp-content/uploads/2024/03/4-BED-SEMI-DETACH-2-300SQM-1-592x444.jpg');">
+        <div class="service-overlay">
+          Residential Design
+          <a class="learn-more-btn" href="https://semangroup.com.ng/wp-content/uploads/2024/03/4-BED-SEMI-DETACH-2-300SQM-1-592x444.jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://astcad.com.au/wp-content/uploads/2023/10/architect-engineer-pointing-architectural-building-prototype-analyzing-construction-model-computer-businessman-designer-working-remote-from-home-real-estate-project-modeling-sketch-min-scaled.jpg');">
+        <div class="service-overlay">
+          Modeling
+          <a class="learn-more-btn" href="https://astcad.com.au/wp-content/uploads/2023/10/architect-engineer-pointing-architectural-building-prototype-analyzing-construction-model-computer-businessman-designer-working-remote-from-home-real-estate-project-modeling-sketch-min-scaled.jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://static3.depositphotos.com/1005732/201/i/450/depositphotos_2012642-stock-photo-architecture-plans.jpg');">
+        <div class="service-overlay">
+          Floor Plan Design
+          <a class="learn-more-btn" href="https://static3.depositphotos.com/1005732/201/i/450/depositphotos_2012642-stock-photo-architecture-plans.jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://media.istockphoto.com/id/1398135990/photo/upscale-modern-mansion-with-pool.jpg?s=612x612&w=0&k=20&c=tBv9i3nVWa5fcQ96lQORgfe6cuHXWW6kmyjPi35-d1s=');">
+        <div class="service-overlay">
+          3D Architectural Rendering
+          <a class="learn-more-btn" href="https://media.istockphoto.com/id/1398135990/photo/upscale-modern-mansion-with-pool.jpg?s=612x612&w=0&k=20&c=tBv9i3nVWa5fcQ96lQORgfe6cuHXWW6kmyjPi35-d1s=" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://t3.ftcdn.net/jpg/02/15/12/88/360_F_215128896_cM9Km3dPsNgrvZvgFFXMzjKQMCx5K4Cm.jpg');">
+        <div class="service-overlay">
+          Architecture Consultation
+          <a class="learn-more-btn" href="https://t3.ftcdn.net/jpg/02/15/12/88/360_F_215128896_cM9Km3dPsNgrvZvgFFXMzjKQMCx5K4Cm.jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://st.depositphotos.com/65561374/56490/i/450/depositphotos_564901920-stock-photo-businessman-working-prepare-paperwork-report.jpg');">
+        <div class="service-overlay">
+          Construction Document Preparation
+          <a class="learn-more-btn" href="https://st.depositphotos.com/65561374/56490/i/450/depositphotos_564901920-stock-photo-businessman-working-prepare-paperwork-report.jpg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://img.freepik.com/free-photo/view-backyard-garden-digital-art-style_23-2151488211.jpg?semt=ais_hybrid&w=740');">
+        <div class="service-overlay">
+          Landscape Design
+          <a class="learn-more-btn" href="https://img.freepik.com/free-photo/view-backyard-garden-digital-art-style_23-2151488211.jpg?semt=ais_hybrid&w=740" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://static.vecteezy.com/system/resources/previews/034/528/998/non_2x/ai-generated-3d-floor-plan-of-an-open-concept-living-apartment-layout-home-ai-generative-free-photo.jpeg');">
+        <div class="service-overlay">
+          3D Floor Plan
+          <a class="learn-more-btn" href="https://static.vecteezy.com/system/resources/previews/034/528/998/non_2x/ai-generated-3d-floor-plan-of-an-open-concept-living-apartment-layout-home-ai-generative-free-photo.jpeg" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://media.istockphoto.com/id/905458064/photo/student-writing-lecture-close-up.jpg?s=612x612&w=0&k=20&c=XAIzRxw5NFA1o3_slXi-KAnbKZRheT23lEfm6mqebSw=');">
+        <div class="service-overlay">
+          Lecture Notes
+          <a class="learn-more-btn" href="https://media.istockphoto.com/id/905458064/photo/student-writing-lecture-close-up.jpg?s=612x612&w=0&k=20&c=XAIzRxw5NFA1o3_slXi-KAnbKZRheT23lEfm6mqebSw=" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://cdn.create.vista.com/api/media/small/321178332/stock-photo-1040-form-female-hand-pen-calculator');">
+        <div class="service-overlay">
+          Bill of Quantity
+          <a class="learn-more-btn" href="https://cdn.create.vista.com/api/media/small/321178332/stock-photo-1040-form-female-hand-pen-calculator" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+      <div class="service-card" style="background-image:url('https://media.istockphoto.com/id/92259124/photo/laptop-computer-with-books-pen-and-yellow-legal-pad.jpg?s=612x612&w=0&k=20&c=D4XYrdsmVuDhLIufIfMUjFkrtb3PtSSafyBJzwceg7E=');">
+        <div class="service-overlay">
+          Research Paper Writing
+          <a class="learn-more-btn" href="https://media.istockphoto.com/id/92259124/photo/laptop-computer-with-books-pen-and-yellow-legal-pad.jpg?s=612x612&w=0&k=20&c=D4XYrdsmVuDhLIufIfMUjFkrtb3PtSSafyBJzwceg7E=" target="_blank" rel="noopener">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="featured-projects" class="featured-projects-section">
+    <div class="featured-header">
+      <h2 class="featured-title">Featured Projects</h2>
+      <p class="featured-subtitle">I treat each completed project with special trepidation. See some of the featured projects below.</p>
+      <hr class="featured-divider" />
+    </div>
+    <div class="featured-project-card">
+      <div class="featured-project-image-block">
+        <div class="carousel" id="project1-carousel">
+          <img src="../public/my_projects/photo_1_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 1" class="carousel-image active" />
+          <img src="../public/my_projects/photo_2_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 2" class="carousel-image" />
+          <img src="../public/my_projects/photo_3_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 3" class="carousel-image" />
+          <img src="../public/my_projects/photo_4_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 4" class="carousel-image" />
+          <img src="../public/my_projects/photo_5_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 5" class="carousel-image" />
+          <img src="../public/my_projects/photo_6_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 6" class="carousel-image" />
+          <img src="../public/my_projects/photo_7_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 7" class="carousel-image" />
+          <img src="../public/my_projects/photo_8_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 8" class="carousel-image" />
+          <img src="../public/my_projects/photo_9_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 9" class="carousel-image" />
+          <img src="../public/my_projects/photo_10_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene 10" class="carousel-image" />
+          <button class="carousel-btn prev" id="carousel-prev-1">&#10094;</button>
+          <button class="carousel-btn next" id="carousel-next-1">&#10095;</button>
+        </div>
+      </div>
+      <div class="featured-project-info">
+        <div class="featured-project-date">2024</div>
+        <h3 class="featured-project-title">G+1 Residence Design Shashemene</h3>
+        <p class="featured-project-desc">A modern G+1 residential design located in Shashemene, featuring contemporary architecture and functional living spaces. The project emphasizes natural light, open layouts, and a seamless connection between indoor and outdoor areas.</p>
+        <ul class="featured-project-features">
+          <li>Contemporary facade and materials</li>
+          <li>Spacious living and dining areas</li>
+          <li>Private outdoor garden</li>
+          <li>Energy-efficient design</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Fullscreen Modal for Project 1 Carousel -->
+    <div id="carousel-modal-1" class="carousel-modal">
+      <span class="close-modal" id="close-carousel-modal-1">&times;</span>
+      <div class="carousel-modal-content">
+        <img src="../public/my_projects/photo_1_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image active" />
+        <img src="../public/my_projects/photo_2_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_3_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_4_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_5_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_6_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_7_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_8_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_9_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <img src="../public/my_projects/photo_10_2025-07-23_18-05-55.jpg" alt="G+1 Residence Design Shashemene Fullscreen" class="carousel-modal-image" />
+        <button class="carousel-btn prev" id="modal-carousel-prev-1">&#10094;</button>
+        <button class="carousel-btn next" id="modal-carousel-next-1">&#10095;</button>
+      </div>
+    </div>
+    <div class="featured-project-card reverse">
+      <div class="featured-project-image-block">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Urban apartment" class="featured-project-image" />
+      </div>
+      <div class="featured-project-info">
+        <div class="featured-project-date">02 / September, 2021</div>
+        <h3 class="featured-project-name">Urban Apartment</h3>
+        <p class="featured-project-desc">A modern apartment complex in the heart of the city, designed for comfort and efficiency with sustainable materials and open spaces.</p>
+        <ul class="featured-project-features">
+          <li>Interior Design</li>
+          <li>Space Planning</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+    </div>
+    <div class="featured-project-card">
+      <div class="featured-project-image-block">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Commercial center" class="featured-project-image" />
+      </div>
+      <div class="featured-project-info">
+        <div class="featured-project-date">03 / March, 2022</div>
+        <h3 class="featured-project-name">Commercial Center</h3>
+        <p class="featured-project-desc">A vibrant commercial hub featuring retail, dining, and office spaces, blending modern architecture with community needs.</p>
+        <ul class="featured-project-features">
+          <li>Retail Design</li>
+          <li>Brand Integration</li>
+          <li>LEED Certification</li>
+        </ul>
+      </div>
+    </div>
+    <div class="featured-project-card reverse">
+      <div class="featured-project-image-block">
+        <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80" alt="Luxury villa" class="featured-project-image" />
+      </div>
+      <div class="featured-project-info">
+        <div class="featured-project-date">04 / July, 2023</div>
+        <h3 class="featured-project-name">Luxury Villa</h3>
+        <p class="featured-project-desc">A luxury villa with panoramic views, featuring bespoke interiors, smart home technology, and seamless indoor-outdoor living.</p>
+        <ul class="featured-project-features">
+          <li>Custom Interiors</li>
+          <li>Smart Home</li>
+          <li>Landscape Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End Featured Projects Section -->
+
+  <!-- Achievements and Awards Section -->
+  <section id="awards" class="awards-section">
+    <div class="awards-header">
+      <h2 class="awards-title">Achievements & Awards</h2>
+      <p class="awards-subtitle">Celebrating milestones and recognitions in my professional journey.</p>
+    </div>
+    <div class="awards-list">
+      <div class="award-card">
+        <div class="award-image-block">
+          <img src="../public/awards_acchivement/Screenshot 2025-07-23 180359.png" alt="Award Certificate" class="award-image" id="award-image-1" style="cursor:pointer;" />
+        </div>
+        <div class="award-info">
+          <div class="award-date">2024</div>
+          <h3 class="award-title">Best Young Architect Award</h3>
+          <p class="award-desc">Recognized for outstanding innovation and excellence in residential design at the National Architecture Awards 2024.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Award Image Fullscreen Modal -->
+  <div id="award-modal-1" class="award-modal">
+    <span class="close-modal" id="close-award-modal-1">&times;</span>
+    <img src="../public/awards_acchivement/Screenshot 2025-07-23 180359.png" alt="Award Certificate Fullscreen" class="award-modal-image" />
+  </div>
+
+  <!-- Testimonial Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="testimonials-header">
+      <h2 class="testimonials-title">Words From My Clients</h2>
+      <p class="testimonials-subtitle">Working with each client takes several months. I provide an individual approach and fresh solutions.</p>
+      <hr class="testimonials-divider" />
+    </div>
+    <div class="testimonials-carousel-container">
+      <button class="testimonials-carousel-arrow left" id="testimonials-carousel-prev"><i class="fas fa-chevron-left"></i></button>
+      <div class="testimonials-carousel-track" id="testimonials-carousel-track">
+        <div class="testimonial-card">
+          <div class="testimonial-profile">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Amanda Peters" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">Amanda Peters</div>
+              <div class="testimonial-meta">COMMERCIAL PROPERTY, USA, 2024.</div>
+            </div>
+          </div>
+          <div class="testimonial-quote-icon">&#10077;</div>
+          <div class="testimonial-text">«Our company hired Tsegaw to complete a project for the construction of our new office. We were absolutely satisfied with the cooperation. Tsegaw is an experienced architect with fresh ideas and extensive expertise in construction, permitting, and design.»</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-profile">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Jessica Gordons" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">Jessica Gordons</div>
+              <div class="testimonial-meta">PRIVATE HOUSE, USA, 2024.</div>
+            </div>
+          </div>
+          <div class="testimonial-quote-icon">&#10077;</div>
+          <div class="testimonial-text">«We decided to approach the construction of our country house seriously and hire an experienced architect. Cooperation with Tsegaw has brought us only positive emotions! From the first minute, we were on the same wavelength, and the results are gorgeous!»</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-profile">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Brown" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">Michael Brown</div>
+              <div class="testimonial-meta">OFFICE RENOVATION, UK, 2023.</div>
+            </div>
+          </div>
+          <div class="testimonial-quote-icon">&#10077;</div>
+          <div class="testimonial-text">«Tsegaw transformed our workspace into a modern, inspiring environment. The process was smooth and the results exceeded our expectations. Highly recommended!»</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-profile">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="David Lee" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">David Lee</div>
+              <div class="testimonial-meta">RETAIL STORE, CANADA, 2022.</div>
+            </div>
+          </div>
+          <div class="testimonial-quote-icon">&#10077;</div>
+          <div class="testimonial-text">«Working with Tsegaw was a pleasure. He brought creative solutions to every challenge and delivered our project on time and within budget.»</div>
+        </div>
+      </div>
+      <button class="testimonials-carousel-arrow right" id="testimonials-carousel-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <!-- Portfolio projects will go here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <!-- Contact form and info will go here -->
+  </section>
+
+  <!-- Footer -->
+
+
+  <!-- Social Media Section -->
+  <section id="instagram-section" class="instagram-section">
+    <div class="instagram-content">
+      <div class="instagram-left">
+        <h2 class="instagram-title">More Recent Works on Social Media</h2>
+        <div class="social-follow">
+          <a href="https://www.instagram.com/tsegaw_admasu_keneni/" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://web.facebook.com/tsegawadmasukeneni" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/tsegawadmasu" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/tsegaw-admasu-keneni/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <span class="social-follow-text">Follow Me <span class="instagram-dash">&mdash;</span></span>
+        </div>
+      </div>
+      <div class="instagram-right">
+        <button class="instagram-carousel-arrow left" id="instagram-carousel-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="instagram-carousel-track" id="instagram-carousel-track">
+          <img src="../public/my_projects/photo_1_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 1" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_2_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 2" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_3_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 3" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_4_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 4" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_5_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 5" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_6_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 6" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_7_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 7" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_8_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 8" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_9_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 9" class="instagram-carousel-image" />
+          <img src="../public/my_projects/photo_10_2025-07-23_18-05-55.jpg" alt="G+1 Shashemene 10" class="instagram-carousel-image" />
+        </div>
+        <button class="instagram-carousel-arrow right" id="instagram-carousel-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hire Me Section -->
+  <section id="hire-me" class="hireme-section">
+    <div class="hireme-content">
+      <h2 class="hireme-title">Hire Me for Your Project</h2>
+      <p class="hireme-subtitle">Contact me in any convenient way to discuss the details.</p>
+      <hr class="hireme-divider" />
+      <div class="hireme-cards">
+        <div class="hireme-card">
+          <div class="hireme-icon"><i class="fas fa-envelope"></i></div>
+          <div class="hireme-label">WRITE ME <span class="hireme-dash">&mdash;</span></div>
+          <div class="hireme-info"><a href="mailto:tsegaw.admasu@leadradiant.com">tsegaw.admasu@leadradiant.com</a></div>
+        </div>
+        <div class="hireme-card">
+          <div class="hireme-icon"><i class="fas fa-phone"></i></div>
+          <div class="hireme-label">CALL ME <span class="hireme-dash">&mdash;</span></div>
+          <div class="hireme-info"><a href="tel:+251926181693">+251 92 618 1693</a></div>
+        </div>
+        <div class="hireme-card">
+          <div class="hireme-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div class="hireme-label">FIND ME <span class="hireme-dash">&mdash;</span></div>
+          <div class="hireme-info"><a href="https://www.linkedin.com/in/tsegaw-admasu-keneni/" target="_blank">linkedin.com/in/tsegaw-admasu</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-logo-block">
+        <img class="footer-logo-icon" src="../public/logo.png" alt="Logo" />
+        <div class="footer-logo-text">
+          <span class="footer-logo-title">Tsegaw Admasu</span>
+          <span class="footer-logo-subtitle">architect &amp; designer</span>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about-me">About Me</a>
+        <a href="#portfolio">Featured Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+      <div class="footer-social-icons">
+        <a href="https://www.instagram.com/tsegaw_admasu_keneni/" class="footer-social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://web.facebook.com/tsegawadmasukeneni" class="footer-social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/tsegawadmasu" class="footer-social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/tsegaw-admasu-keneni/" class="footer-social-icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <div class="footer-copyright">&copy; Created by <a href="https://yezetbusiness.pro.et" target="_blank">Yezet Business Solutions</a></div>
+      <div class="footer-rights">All rights Reserved</div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
